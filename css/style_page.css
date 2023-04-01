@@ -1,0 +1,209 @@
+@charset "utf-8";
+@import url("../webfonts/Bruna_Light/stylesheet.css");
+@import url("../webfonts/OttawaBold/stylesheet.css");
+@import url("../webfonts/08649_Clarendon_Regular/stylesheet.css");
+
+
+
+header,nav,main,footer{
+    padding: 20px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{background-color: blueviolet; height:100px}nav  {
+    height: 60px;
+    background-color: #C972FC;
+}
+nav ul li  {
+    /* [disabled]width: 201px; */
+    text-align: center;
+    /* [disabled]background-color: #FF9395; */
+    display: inline-block;
+    list-style-image: none;
+}
+
+main {
+    height: auto;
+    background-color: #F1CDFF;
+}
+footer {
+    height: 50px;
+    background-color: #410067;
+}
+header h1  {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Bruna Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+}
+footer h5 {
+    color: #FFFFFF;
+    text-align: center;
+}
+main section {
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    background-color: #7E6A97;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    color: #F5E0FD;
+    font-family: pacifico;
+    font-style: normal;
+    font-weight: 400;
+}
+main section h2 {
+    padding-bottom: 15px;
+    font-family: OttawaBold;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#img1 {
+    width: 50%;
+    height: auto;
+}
+#img0 {
+    width: 320px;
+    height: 179.75px;
+}
+.img_1 {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+    border: 20px solid #870002;
+}
+#img2 {
+    width: 25%;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+#img3 {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#fondo_1 {
+    background-image: url(../imagenes/chinese-new-year-2022-template-format-taxabo9c642d6pzt.jpg);
+    background-size: 106% 117%;
+    background-repeat: no-repeat;
+}
+.p1 {
+    width: 400px;
+    height: auto;
+    color: #FFDD00;
+    background-color: #A00000;
+}
+.img_filter_size {
+    width: 256px;
+    margin: 5px;
+    height: auto;
+}
+.gray_scale {
+    filter: grayscale(100%);
+}
+.sepia {
+    filter: sepia(90%);
+}
+.opacity {
+    filter: opacity(30%);
+}
+.brillo {
+    filter: brightness(250%);
+}
+.contraste {
+    filter: contrast(180%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.desenfocado {
+    filter: blur(3px);
+}
+.sombra {
+    filter: drop-shadow(5px 5px 10px green);
+}
+main section p {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.img_fotoperfil {
+    float: right;
+    width: 10%;
+    height: auto;
+    padding-left: 20px;
+}
+nav ul  {
+}
+nav ul li {
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+ul li a {
+    text-decoration: none;
+    font-family: OttawaBold;
+    font-style: normal;
+    font-weight: 400;
+}
+ul li a:hover {
+    color: #FFCFD0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FF484B;
+}
+.centrar {
+    margin: 0 auto;
+    display: block;
+}
+.video_1 {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    background-color: #F0BCFF;
+    border-width: 3px;
+    border-style: solid;
+}
+.img_2 {
+    width: 20%;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+.video_2 {
+    width: 50%;
+    height: auto;
+}
+.animate__delay-2s {
+}
+.animate__delay-3s {
+}
+.animate__slower {
+}
+.animate__fast {
+}
+.img_3 {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+.animate__delay-5s {
+}
+.animate__repeat-3 {
+}

@@ -1,0 +1,430 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style type="text/css">
+body header    , body nav, body main, body footer{
+    width: 1230px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+body header {
+    background-color: #35FFD6;
+    color: #470002;
+    text-align: center;
+    width: auto;
+    padding: 50px;
+    height: 100px;
+    margin: auto;
+}
+body main section {
+    width: 900px;
+    background-color: #03D08E;
+    margin-left: auto;
+    padding: 20px;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+main section h2 {
+    color: #F5F0F0;
+    font-style: oblique;
+}
+main section p {
+    color: #FFB7B9;
+}
+body main {
+    padding: 50px;
+    background-color: #9CFFF4;
+}
+body footer {
+    background-color: #360000;
+    padding: 50px;
+    color: #FDF7D0;
+    text-align: center;
+}
+body nav {
+    background-color: #360000;
+    padding: 50px;
+    color: #FDF7D0;
+}
+nav ul li {
+    width: 130px;
+    height: 50px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #FFE8E8;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #FDEDED;
+}
+ul li a:link  {
+    color: #0402D1;
+    width: 0px;
+}
+ul li a:hover {
+    color: #DA00F8;
+}
+	table{
+width: 100%;
+border-style: solid;
+border-width: 5px; border-color: darkblue; 
+border-collapse:collapse;}
+table tr{
+    color: azure;
+    background-color: #6BCBFC;
+	}
+table th, table td{
+border: 2px solid blue;
+	padding: 5px;
+	text-align: center;
+	}
+	#tabla_1{
+		background-color: rgba(102,132,152,1.00); color: rgba(245,251,255,1.00);
+font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		border-collapse: separate;
+		padding: 30px;
+	}
+#tabla_1 tbody td:hover  {
+    color: #2D0203;
+    background-color: #FFFCC1;
+}
+#tabla_1 td{
+	background-color:rgba(139,199,239,1.00);
+	}	
+#tabla_1 th{
+	background-color:rgba(15,51,106,1.00);
+	}
+#tabla_1 tfoot td{
+    background-color: rgba(94,119,142,1.00);
+	} 
+#tabla_2 {
+    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    padding-top: 15;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15;
+    margin-right: auto;
+    /* [disabled]font-weight: normal; */
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+#tabla_2 tbody tr:hover {
+    background-color: #FBFF71;
+    color: #000000;
+    font-size: 16px;
+}
+#tabla_2 tfoot td {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    background-color: #360060;
+}
+#tabla_2 tbody td  {
+    text-align: left;
+}
+#tabla_2 th {
+    background-color: #8305E4;
+    text-align: left;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+#tabla_3 {
+}
+#tabla_3 thead th {
+    background-color: #151F1E;
+}
+#tabla_3 tfoot td {
+    background-color: #001D18;
+    color: #CCFBA0;
+}
+#tabla_3 tbody tr:nth-child(even) {
+    background-color: #00C09F;
+    color: #64FB91;
+}
+#tabla_3 tbody tr:nth-child(odd) {
+    background-color: #005B4B;
+    color: #AAFFF0;
+}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/buenard:n4:default.js" type="text/javascript"></script>
+</head>
+
+<body>
+<header>
+  <h1>Tablas de HTML</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="pratica_uno.html">Formatos de texto</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+	  <li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="html/video.html">&nbsp;</a><a href="video.html">Video</a></li>
+    <li><a href="audio.html">Audio&nbsp;</a></li>
+	  <li><a href="animación.html">Animación</a><a>&nbsp;</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, dicta, voluptatibus! Reiciendis aliquam nostrum quisquam, qui exercitationem, fuga at quo, sequi repellendus similique officiis doloremque aut sunt possimus! Asperiores, odit hic deleniti natus cupiditate alias vitae nam aperiam aliquam quidem culpa, possimus blanditiis autem praesentium error quisquam animi soluta reprehenderit facere repudiandae. Officiis accusantium libero quod dolorum! Deleniti accusamus atque distinctio officia perspiciatis itaque ipsa rerum illum pariatur repellat, sapiente, autem consequatur vitae alias quod modi veniam blanditiis exercitationem ab tempora optio praesentium sunt facilis. Laudantium, saepe quod sapiente, voluptates aliquam et explicabo dicta repellat quaerat dolores unde nobis, id!
+	  <table border="1">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Apellido Paterno</th>
+<th>Apellido Materno</th>
+<th>Edad</th>
+<th>Cooperación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Angel</td>
+<td>Lopez</td>
+<td>Flores</td>
+<td>20</td>
+<td>100</td>
+</tr>
+	<tr>
+<td>Ana</td>
+<td>Diaz</td>
+<td>Sanchez</td>
+<td>18</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Guadalupe</td>
+<td>Gomez</td>
+<td>Perez</td>
+<td>19</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Roberto</td>
+<td>Fernandez</td>
+<td>Jimenez</td>
+<td>19</td>
+<td>150</td>
+</tr>
+<tr>
+<td>Jose Luis</td>
+<td>Velez</td>
+<td>Lopez</td>
+<td>20</td>
+<td>100</td>
+</tr>
+</tbody>	  
+<tfoot>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Total</td>
+<td>375</td>
+</tr>
+</tfoot>
+</table></p>
+  </section>
+  <section>
+<h2>Tabla modificada a partir de un idenfiticador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad molestias est quam eligendi magnam quisquam, quibusdam itaque dignissimos. At corporis laboriosam harum iusto nemo labore, est, nam esse praesentium, atque dignissimos blanditiis in consectetur minus, expedita culpa eaque enim. Ratione, facere doloremque! Rerum laborum officiis neque nulla, porro optio possimus facilis molestiae quisquam animi? Nam nostrum vero, est quod non ipsa odit! Molestiae veniam nam perspiciatis vero optio error exercitationem dicta, nihil vel vitae rerum. Ut, vero, assumenda? Deleniti totam quisquam aspernatur dignissimos, ea. Esse, facilis? Accusamus iure alias voluptate, qui exercitationem, velit inventore fugit iste, labore quam recusandae sed.
+	  	  <table id="tabla_1">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Apellido Paterno</th>
+<th>Apellido Materno</th>
+<th>Edad</th>
+<th>Cooperación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Angel</td>
+<td>Lopez</td>
+<td>Flores</td>
+<td>20</td>
+<td>100</td>
+</tr>
+	<tr>
+<td>Ana</td>
+<td>Diaz</td>
+<td>Sanchez</td>
+<td>18</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Guadalupe</td>
+<td>Gomez</td>
+<td>Perez</td>
+<td>19</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Roberto</td>
+<td>Fernandez</td>
+<td>Jimenez</td>
+<td>19</td>
+<td>150</td>
+</tr>
+<tr>
+<td>Jose Luis</td>
+<td>Velez</td>
+<td>Lopez</td>
+<td>20</td>
+<td>100</td>
+</tr>
+</tbody>	  
+<tfoot>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Total</td>
+<td>375</td>
+</tr>
+</tfoot>
+</table></p>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt itaque nulla ea excepturi ut architecto, ex illo eum numquam quae. Asperiores sit magnam inventore illo odio? Laboriosam, nobis, quaerat repellendus nulla nisi atque culpa fuga ad quae, temporibus velit perspiciatis optio asperiores rerum. Architecto cupiditate nam voluptatibus dolorum asperiores, adipisci pariatur, velit obcaecati minima aut dolorem tempora perspiciatis. Cumque quis, fugit quo earum, quas animi. Rerum enim possimus molestiae, neque quasi reprehenderit saepe sunt, reiciendis in voluptatum aspernatur nemo veritatis laborum, libero provident itaque magni natus? Labore qui sed voluptatibus ipsum rerum, magnam earum ut molestias delectus magni debitis, numquam?
+	  	  <table border="1" id="tabla_2">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Apellido Paterno</th>
+<th>Apellido Materno</th>
+<th>Edad</th>
+<th>Cooperación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Angel</td>
+<td>Lopez</td>
+<td>Flores</td>
+<td>20</td>
+<td>100</td>
+</tr>
+	<tr>
+<td>Ana</td>
+<td>Diaz</td>
+<td>Sanchez</td>
+<td>18</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Guadalupe</td>
+<td>Gomez</td>
+<td>Perez</td>
+<td>19</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Roberto</td>
+<td>Fernandez</td>
+<td>Jimenez</td>
+<td>19</td>
+<td>150</td>
+</tr>
+<tr>
+<td>Jose Luis</td>
+<td>Velez</td>
+<td>Lopez</td>
+<td>20</td>
+<td>100</td>
+</tr>
+</tbody>	  
+<tfoot>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Total</td>
+<td>375</td>
+</tr>
+</tfoot>
+</table></p>
+  </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, dicta, voluptatibus! Reiciendis aliquam nostrum quisquam, qui exercitationem, fuga at quo, sequi repellendus similique officiis doloremque aut sunt possimus! Asperiores, odit hic deleniti natus cupiditate alias vitae nam aperiam aliquam quidem culpa, possimus blanditiis autem praesentium error quisquam animi soluta reprehenderit facere repudiandae. Officiis accusantium libero quod dolorum! Deleniti accusamus atque distinctio officia perspiciatis itaque ipsa rerum illum pariatur repellat, sapiente, autem consequatur vitae alias quod modi veniam blanditiis exercitationem ab tempora optio praesentium sunt facilis. Laudantium, saepe quod sapiente, voluptates aliquam et explicabo dicta repellat quaerat dolores unde nobis, id!
+	  <table cellpadding="5" cellspacing="5" id="tabla_3">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Apellidos</th>
+<th>Correo</th>
+<th>Telefono</th>
+<th>Cooperación&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maria</td>
+<td>Sosa Hernandez</td>
+<td>mari.34@hotmail.com</td>
+<td>2223456789</td>
+<td>100</td>
+</tr>
+	<tr>
+<td>Jose Alfredo</td>
+<td>Gomez Vera</td>
+<td>alfred_gv@gmail.com</td>
+<td>2225434567</td>
+<td>&nbsp;50</td>
+    </tr>
+<tr>
+<td>Hugo</td>
+<td>Castro Jimenez</td>
+<td>wolver_87@yahoo.com</td>
+<td>2229876567</td>
+<td>&nbsp;50</td>
+</tr>
+<tr>
+<td>Veronica</td>
+<td>Xicotencatl Lopez</td>
+<td>vero_xi@hotmail.com</td>
+<td>2225678897</td>
+<td>&nbsp;100</td>
+</tr>
+<tr>
+<td>Bernardo</td>
+<td>Morales Hernandez</td>
+<td>berny98@outlook.com</td>
+<td>5534567883</td>
+<td>&nbsp;200</td>	  
+</tr>
+<tr>
+<td>Gerardo&nbsp;</td>
+<td>&nbsp;Rojas Vargas</td>
+<td>gerry@gmail.com&nbsp;</td>
+<td>7789987654&nbsp;</td>
+<td>&nbsp;50</td>	  
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>&nbsp;</td>
+<td></td>
+<td></td>
+<td>Total</td>
+<td>550</td>
+</tr>
+</tfoot>
+</table></p>
+  </section>
+</main>
+<footer>
+  <h5>Elaborado por Martha Guadalupe Bravo Barragán</h5>
+</footer>
+</body>
+</html>
